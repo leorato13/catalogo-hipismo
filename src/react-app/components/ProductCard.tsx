@@ -19,7 +19,8 @@ export function ProductCard({ product, whatsappNumber }: ProductCardProps) {
   const conditionColors = {
     "Nova com pequeno defeito": "bg-blue-50 text-blue-700",
     "Coleção antiga": "bg-purple-50 text-purple-700",
-    "Usada": "bg-stone-100 text-stone-700"
+    "Usada": "bg-stone-100 text-stone-700",
+    "Com defeito": "bg-amber-50 text-amber-800"
   };
 
   const formatPrice = (price: number) => {
