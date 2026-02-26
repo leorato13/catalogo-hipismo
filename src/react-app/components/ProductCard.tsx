@@ -32,7 +32,7 @@ export function ProductCard({ product, whatsappNumber }: ProductCardProps) {
 
   const generateWhatsAppLink = () => {
     const message = encodeURIComponent(
-      `Oi! Tenho interesse na peça: ${product.name}. Tamanho: ${product.size}. Preço: ${formatPrice(product.price)}. Ainda está disponível?`
+      `Oi! Tenho interesse na peça ${product.id}: ${product.name}. Tamanho: ${product.size}. Preço: ${formatPrice(product.price)}. Ainda está disponível?`
     );
     return `https://wa.me/${whatsappNumber}?text=${message}`;
   };
