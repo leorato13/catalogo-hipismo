@@ -1,0 +1,18 @@
+COMO USAR FOTOS DOS SEUS PRODUTOS
+==================================
+
+1. Coloque aqui as fotos das peças (arquivos .jpg, .png, etc.).
+   Exemplo: culote-branco.jpg, camisa-prova-m.jpg
+
+2. No arquivo src/react-app/data/products.ts, no campo "image" do produto, use:
+   "/fotos/nome-do-arquivo.jpg"
+   (barra no início + fotos/ + nome exato do arquivo)
+
+Uma foto:
+  image: "/fotos/culote-branco.jpg"
+
+Várias fotos (o site mostra setas e bolinhas para trocar):
+  image: ["/fotos/culote-frente.jpg", "/fotos/culote-costas.jpg"]
+
+Dica: use nomes sem espaços e sem acentos (ex: culote-branco.jpg).
+
