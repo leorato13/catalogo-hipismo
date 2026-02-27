@@ -21,10 +21,11 @@ interface FiltersProps {
 
 const priceRanges: { label: string; value: [number, number] }[] = [
   { label: "Todas", value: [0, 10000] },
-  { label: "Até R$ 200", value: [0, 200] },
-  { label: "R$ 200 - R$ 500", value: [200, 500] },
-  { label: "R$ 500 - R$ 800", value: [500, 800] },
-  { label: "Acima de R$ 800", value: [800, 10000] }
+  { label: "Até R$ 50", value: [0, 50] },
+  { label: "R$ 50 - R$ 100", value: [50, 100] },
+  { label: "R$ 100 - R$ 150", value: [100, 150] },
+  { label: "R$ 150 - R$ 200", value: [150, 200] },
+  { label: "Acima de R$ 200", value: [200, 10000] }
 ];
 
 export function Filters({

@@ -386,19 +386,15 @@ export const products: Product[] = [
 export const categories: ProductCategory[] = [
   "Culote",
   "Camisa de Prova", 
-  "Camisa de Treino",
-  "Colete",
-  "Jaqueta",
-  "Acessório"
+  "Camisa de Treino"
 ];
 
 export const sizes = ["PP", "P", "M", "G", "GG", "6", "8", "12", "14"];
 
 export const conditions: ProductCondition[] = [
   "Nova com pequeno defeito",
-  "Coleção antiga",
-  "Usada",
-  "Com defeito"
+  "Nova",
+  "Usada"
 ];
 
 export const statuses: ProductStatus[] = ["Disponível", "Reservado", "Vendido"];
