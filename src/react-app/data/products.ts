@@ -80,7 +80,7 @@ export const products: Product[] = [
     size: "PP",
     condition: "Coleção antiga",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 80,
+    price: 65,
     status: "Disponível",
     image: "/fotos/camisa-vermelha.jpeg"
   },
@@ -292,6 +292,105 @@ export const products: Product[] = [
     price: 80,
     status: "Disponível",
     image: ["/fotos/camisa-25.jpeg"]
+  },
+  {
+    id: "26",
+    name: "Camisa de Prova Branca - Major Horse",
+    category: "Camisa de Prova",
+    size: "M",
+    condition: "Nova com pequeno defeito",
+    observations: "Nunca usada, mas com pequena mancha na gola/ombro.",
+    price: 120,
+    status: "Disponível",
+    image: ["/fotos/camisa-26.jpeg", "/fotos/camisa-26.2.jpeg"]
+  },
+  {
+    id: "27",
+    name: "Culote Branco com Preto - Major Horse",
+    category: "Culote",
+    size: "P",
+    condition: "Nova",
+    observations: "Nunca usado.",
+    price: 150,
+    status: "Disponível",
+    image: ["/fotos/culote-brancoepreto.jpeg", "/fotos/culote-brancoepreto2.jpeg"]
+  },
+  {
+    id: "28",
+    name: "Culote Branco com Lilás - Major Horse",
+    category: "Culote",
+    size: "12",
+    condition: "Nova com pequeno defeito",
+    observations: "Nunca usada, mas com pequena mancha de etiqueta (cola, deve sair).",
+    price: 95,
+    status: "Disponível",
+    image: ["/fotos/culote-brancoelilás.jpeg", "/fotos/culote-brancoelilás.2.jpeg", "/fotos/culote-brancoelilás.3.jpeg"]
+  },
+  {
+    id: "29",
+    name: "Regata de Viscolaycra Lilás - Major Horse",
+    category: "Camisa de Treino",
+    size: "PP",
+    condition: "Nova",
+    observations: "Nunca usada.",
+    price: 40,
+    status: "Disponível",
+    image: ["/fotos/regata-lilas.jpeg", "/fotos/regata-lilás.2.jpeg"]
+  },
+  {
+    id: "30",
+    name: "Camisa de Prova Terracota - Major Horse",
+    category: "Camisa de Prova",
+    size: "P",
+    condition: "Usada",
+    observations: "Usada, mas em bom estado.",
+    price: 65,
+    status: "Disponível",
+    image: ["/fotos/camisa-terracota.jpeg"]
+  },
+  {
+    id: "31",
+    name: "Culote Branco MASCULINO - Major Horse",
+    category: "Culote",
+    size: "GG",
+    condition: "Nova com pequeno defeito",
+    observations: "Novo ainda na etiqueta, mas com pequena mancha no cós.",
+    price: 75,
+    status: "Disponível",
+    image: ["/fotos/culote-brancomasc3.jpeg", "/fotos/culote-brancomasc2.jpeg", "/fotos/culote-brancomasc.jpeg"]
+  },
+  {
+    id: "32",
+    name: "Regata Branca - Major Horse",
+    category: "Camisa",
+    size: "PP",
+    condition: "Nova",
+    observations: "Nova, nunca usada.",
+    price: 80,
+    status: "Disponível",
+    image: ["/fotos/regata-branca.jpeg"]
+  },
+  {
+    id: "33",
+    name: "Camisa de Prova Preta - Major Horse",
+    category: "Camisa",
+    size: "PP",
+    condition: "Nova",
+    observations: "Nova, nunca usada mas com pequena mancha na gola.",
+    price: 80,
+    status: "Disponível",
+    image: ["/fotos/camisa-preta.jpeg", "/fotos/camisa-preta2.jpeg"]
+  },
+  {
+    id: "34",
+    name: "T-shirt Treino - Major Horse",
+    category: "Camisa",
+    size: "6",
+    condition: "Nova",
+    observations: "Nova, nunca usada.",
+    price: 35,
+    status: "Disponível",
+    image: ["/fotos/tshirt-treino-verde.jpeg"]
   }
 ];
 
@@ -304,7 +403,7 @@ export const categories: ProductCategory[] = [
   "Acessório"
 ];
 
-export const sizes = ["PP", "P", "M", "G", "GG", "8", "12", "14"];
+export const sizes = ["PP", "P", "M", "G", "GG", "6", "8", "12", "14"];
 
 export const conditions: ProductCondition[] = [
   "Nova com pequeno defeito",
