@@ -129,17 +129,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-verdeclaro3.jpeg", "/fotos/camisa-verdeclaro.jpeg", "/fotos/camisa-verdeclaro2.jpeg"]
   },
   {
-    id: "11",
-    name: "Culote - Major Horse",
-    category: "Culote",
-    size: "P",
-    condition: "Usada",
-    observations: "Usado em bom estado, com gripe um pouco gasto.",
-    price: 140,
-    status: "Disponível",
-    image: ["/fotos/culote-gripegasto.jpeg", "/fotos/culote-gripegasto2.jpeg"]
-  },
-  {
     id: "12",
     name: "Camisa de Prova - Major Horse",
     category: "Camisa de Prova",
