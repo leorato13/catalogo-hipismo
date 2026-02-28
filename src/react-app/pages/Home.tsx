@@ -10,6 +10,9 @@ import { Search, MessageCircle } from "lucide-react";
 // Configure your WhatsApp number here (with country code, no + or spaces)
 const WHATSAPP_NUMBER = "5511996135855";
 
+// Logo no header: coloque a imagem em public/ (ex: public/logo.png) e use "/logo.png". Deixe "" para manter o ícone do cavalo.
+const HEADER_LOGO = "/logo.png";
+
 export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory | "all">("all");
@@ -60,7 +63,11 @@ export default function HomePage() {
             {/* Title Section */}
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <HorseIcon className="w-8 h-8 text-primary opacity-70" />
+                {HEADER_LOGO ? (
+                  <img src={HEADER_LOGO} alt="Logo" className="w-24 h-24 object-contain" />
+                ) : (
+                  <HorseIcon className="w-8 h-8 text-primary opacity-70" />
+                )}
                 <div>
                   <h1 className="text-lg md:text-xl font-semibold text-foreground">
                     OUTLET - Catálogo de Peças
