@@ -112,13 +112,26 @@ export function ProductCard({ product, whatsappNumber }: ProductCardProps) {
           </h3>
         </div>
 
-        <div className="flex items-center gap-3 text-sm">
-          <span className="px-2 py-1 bg-secondary rounded text-secondary-foreground font-medium">
-            Tam. {product.size}
-          </span>
-          <span className="text-2xl font-bold text-primary">
-            {formatPrice(product.price)}
-          </span>
+        <div className="flex flex-col gap-1">
+          <div className="flex items-center gap-3 text-sm">
+            <span className="px-2 py-1 bg-secondary rounded text-secondary-foreground font-medium">
+              Tam. {product.size}
+            </span>
+            {product.originalPrice != null && product.originalPrice > product.price ? (
+              <div className="flex flex-col">
+                <span className="text-sm text-muted-foreground line-through">
+                  {formatPrice(product.originalPrice)}
+                </span>
+                <span className="text-2xl font-bold text-primary">
+                  {formatPrice(product.price)}
+                </span>
+              </div>
+            ) : (
+              <span className="text-2xl font-bold text-primary">
+                {formatPrice(product.price)}
+              </span>
+            )}
+          </div>
         </div>
 
         {product.observations && (

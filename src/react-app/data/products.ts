@@ -10,6 +10,8 @@ export interface Product {
   condition: ProductCondition;
   observations: string;
   price: number;
+  /** Preço original antes do desconto. Se informado e maior que price, mostra riscado no card. */
+  originalPrice?: number;
   status: ProductStatus;
   /** Uma foto: use string. Várias fotos: use array de strings.
    *  Exemplos: "/fotos/peca.jpg"  ou  ["/fotos/peca1.jpg", "/fotos/peca2.jpg"]
@@ -25,7 +27,8 @@ export const products: Product[] = [
     size: "G",
     condition: "Usada",
     observations: "Usado poucas vezes, em ótimo estado.",
-    price: 180,
+    price: 150,
+    originalPrice: 220,
     status: "Disponível",
     image: "/fotos/culote-ar-equestrian.jpeg"
   },
@@ -36,7 +39,8 @@ export const products: Product[] = [
     size: "12",
     condition: "Nova",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 110,
+    price: 99,
+    originalPrice: 120,
     status: "Disponível",
     image: ["/fotos/camisa-azul-majorhorse1.jpeg", "/fotos/camisa-azul-majorhorse2.jpeg"]
   },
@@ -47,7 +51,8 @@ export const products: Product[] = [
     size: "14",
     condition: "Nova",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 160,
+    price: 140,
+    originalPrice: 170,
     status: "Disponível",
     image: "/fotos/camisa-tamanho14.jpeg"
   },
@@ -58,7 +63,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usada poucas vezes, em ótimo estado.",
-    price: 90,
+    price: 70,
+    originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-verde-escuro.jpeg", "/fotos/camisa-verde-escuro2.jpeg"]
   },
@@ -69,7 +75,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 80,
+    price: 65,
+    originalPrice: 80,
     status: "Disponível",
     image: "/fotos/camisa-laranja.jpeg"
   },
@@ -80,7 +87,8 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 65,
+    price: 55,
+    originalPrice: 70,
     status: "Disponível",
     image: "/fotos/camisa-vermelha.jpeg"
   },
@@ -91,7 +99,8 @@ export const products: Product[] = [
     size: "GG",
     condition: "Nova",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 100,
+    price: 90,
+    originalPrice: 110,
     status: "Disponível",
     image: "/fotos/camisa-branca.jpeg"
   },
@@ -102,7 +111,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usado mas em bom estado.",
-    price: 120,
+    price: 110,
+    originalPrice: 120,
     status: "Disponível",
     image: ["/fotos/culote-usadoantigo.jpeg", "/fotos/culote-usadoantigo2.jpeg"]
   },
@@ -113,7 +123,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usado mas em bom estado.",
-    price: 170,
+    price: 140,
+    originalPrice: 170,
     status: "Disponível",
     image: ["/fotos/culote-usadonovo1.jpeg", "/fotos/culote-usadonovo2.jpeg"]
   },
@@ -124,7 +135,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usada poucas vezes, em ótimo estado.",
-    price: 90,
+    price: 80,
+    originalPrice: 100,
     status: "Disponível",
     image: ["/fotos/camisa-verdeclaro3.jpeg", "/fotos/camisa-verdeclaro.jpeg", "/fotos/camisa-verdeclaro2.jpeg"]
   },
@@ -135,7 +147,8 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, com pequena e leve mancha na barra.",
-    price: 135,
+    price: 120,
+    originalPrice: 140,
     status: "Disponível",
     image: ["/fotos/camisa-brancamancha.jpeg", "/fotos/camisa-brancamancha2.jpeg"]
   },
@@ -146,7 +159,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usada poucas vezes, em bom estado.",
-    price: 100,
+    price: 90,
+    originalPrice: 110,
     status: "Disponível",
     image: ["/fotos/camisa-prova-verdemilitar.jpeg"]
   },
@@ -157,7 +171,8 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequenas manchas na gola e no ombro.",
-    price: 80,
+    price: 70,
+    originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-14.jpeg", "/fotos/camisa-14.1.jpeg", "/fotos/camisa-14.2.jpeg"]
   },
@@ -168,7 +183,8 @@ export const products: Product[] = [
     size: "GG",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha na gola.",
-    price: 70,
+    price: 65,
+    originalPrice: 80,
     status: "Disponível",
     image: ["/fotos/camisa-15.jpeg", "/fotos/camisa-15.2.jpeg"]
   },
@@ -180,6 +196,7 @@ export const products: Product[] = [
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequenas manchas no ombro (cola, deve sair) e nas golas.",
     price: 49,
+    originalPrice: 60,
     status: "Disponível",
     image: ["/fotos/camisa-16.jpeg", "/fotos/camisa-16.2.jpeg", "/fotos/camisa-16.3.jpeg"]
   },
@@ -190,7 +207,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha no ombro.",
-    price: 80,
+    price: 70,
+    originalPrice: 100,
     status: "Disponível",
     image: ["/fotos/camisa-17.jpeg", "/fotos/camisa-17.2.jpeg"]
   },
@@ -201,7 +219,8 @@ export const products: Product[] = [
     size: "G",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha no ombro e cintura.",
-    price: 70,
+    price: 60,
+    originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-18.jpeg", "/fotos/camisa-18.2.jpeg", "/fotos/camisa-18.3.jpeg"]
   },
@@ -212,7 +231,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha na gola.",
-    price: 55,
+    price: 49,
+    originalPrice: 60,
     status: "Disponível",
     image: ["/fotos/camisa-19.jpeg", "/fotos/camisa-19.2.jpeg"]
   },
@@ -223,7 +243,8 @@ export const products: Product[] = [
     size: "8",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha na cintura.",
-    price: 85,
+    price: 75,
+    originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-20.jpeg", "/fotos/camisa-20.2.jpeg"]
   },
@@ -234,7 +255,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova",
     observations: "Nova, nunca usada.",
-    price: 110,
+    price: 100,
+    originalPrice: 120,
     status: "Disponível",
     image: ["/fotos/camisa-21.jpeg"]
   },
@@ -245,7 +267,8 @@ export const products: Product[] = [
     size: "8",
     condition: "Nova",
     observations: "Novo, nunca usada e SEM GRIP.",
-    price: 95,
+    price: 85,
+    originalPrice: 95,
     status: "Disponível",
     image: ["/fotos/culote-22.jpeg", "/fotos/culote-22.2.jpeg"]
   },
@@ -256,7 +279,8 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha na barra.",
-    price: 135,
+    price: 115,
+    originalPrice: 135,
     status: "Disponível",
     image: ["/fotos/camisa-23.jpeg", "/fotos/camisa-23.2.jpeg"]
   },
@@ -267,7 +291,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usada poucas vezes, em bom estado.",
-    price: 80,
+    price: 70,
+    originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-24.jpeg"]
   },
@@ -278,7 +303,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usada poucas vezes, em bom estado.",
-    price: 80,
+    price: 70,
+    originalPrice: 80,
     status: "Disponível",
     image: ["/fotos/camisa-25.jpeg"]
   },
@@ -289,7 +315,8 @@ export const products: Product[] = [
     size: "M",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha na gola/ombro.",
-    price: 120,
+    price: 110,
+    originalPrice: 130,
     status: "Disponível",
     image: ["/fotos/camisa-26.jpeg", "/fotos/camisa-26.2.jpeg"]
   },
@@ -300,7 +327,8 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova",
     observations: "Nunca usado.",
-    price: 150,
+    price: 140,
+    originalPrice: 150,
     status: "Disponível",
     image: ["/fotos/culote-brancoepreto.jpeg", "/fotos/culote-brancoepreto2.jpeg"]
   },
@@ -311,7 +339,8 @@ export const products: Product[] = [
     size: "12",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha de etiqueta (cola, deve sair).",
-    price: 95,
+    price: 90,
+    originalPrice: 100,
     status: "Disponível",
     image: ["/fotos/culote-brancoelilás.jpeg", "/fotos/culote-brancoelilás.2.jpeg", "/fotos/culote-brancoelilás.3.jpeg"]
   },
@@ -323,6 +352,7 @@ export const products: Product[] = [
     condition: "Nova",
     observations: "Nunca usada.",
     price: 40,
+    originalPrice: 50,
     status: "Disponível",
     image: ["/fotos/regata-lilas.jpeg", "/fotos/regata-lilás.2.jpeg"]
   },
@@ -334,6 +364,7 @@ export const products: Product[] = [
     condition: "Usada",
     observations: "Usada, mas em bom estado.",
     price: 65,
+    originalPrice: 80,
     status: "Disponível",
     image: ["/fotos/camisa-terracota.jpeg"]
   },
@@ -345,6 +376,7 @@ export const products: Product[] = [
     condition: "Nova com pequeno defeito",
     observations: "Novo ainda na etiqueta, mas com pequena mancha no cós.",
     price: 75,
+    originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/culote-brancomasc3.jpeg", "/fotos/culote-brancomasc2.jpeg", "/fotos/culote-brancomasc.jpeg"]
   },
@@ -355,7 +387,8 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova",
     observations: "Nova, nunca usada.",
-    price: 80,
+    price: 75,
+    originalPrice: 100,
     status: "Disponível",
     image: ["/fotos/regata-branca.jpeg"]
   },
@@ -366,7 +399,8 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova",
     observations: "Nova, nunca usada mas com pequena mancha na gola.",
-    price: 80,
+    price: 75,
+    originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-preta.jpeg", "/fotos/camisa-preta2.jpeg"]
   },
@@ -378,6 +412,7 @@ export const products: Product[] = [
     condition: "Nova",
     observations: "Nova, nunca usada.",
     price: 35,
+    originalPrice: 50,
     status: "Disponível",
     image: ["/fotos/tshirt-treino-verde.jpeg"]
   }
