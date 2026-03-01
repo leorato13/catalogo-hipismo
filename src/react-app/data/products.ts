@@ -321,18 +321,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-26.jpeg", "/fotos/camisa-26.2.jpeg"]
   },
   {
-    id: "27",
-    name: "Culote Branco com Preto - Major Horse",
-    category: "Culote",
-    size: "P",
-    condition: "Nova",
-    observations: "Nunca usado.",
-    price: 140,
-    originalPrice: 150,
-    status: "Disponível",
-    image: ["/fotos/culote-brancoepreto.jpeg", "/fotos/culote-brancoepreto2.jpeg"]
-  },
-  {
     id: "28",
     name: "Culote Branco com Lilás - Major Horse",
     category: "Culote",
