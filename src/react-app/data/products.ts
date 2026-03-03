@@ -117,18 +117,6 @@ export const products: Product[] = [
     image: ["/fotos/culote-usadoantigo.jpeg", "/fotos/culote-usadoantigo2.jpeg"]
   },
   {
-    id: "9",
-    name: "Culote - Major Horse",
-    category: "Culote",
-    size: "P",
-    condition: "Usada",
-    observations: "Usado mas em bom estado.",
-    price: 140,
-    originalPrice: 170,
-    status: "Disponível",
-    image: ["/fotos/culote-usadonovo1.jpeg", "/fotos/culote-usadonovo2.jpeg"]
-  },
-  {
     id: "10",
     name: "Camisa - Major Horse",
     category: "Camisa de Treino",
@@ -223,18 +211,6 @@ export const products: Product[] = [
     originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-18.jpeg", "/fotos/camisa-18.2.jpeg", "/fotos/camisa-18.3.jpeg"]
-  },
-  {
-    id: "19",
-    name: "Camisa de Prova Rose - Major Horse",
-    category: "Camisa de Prova",
-    size: "P",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequena mancha na gola.",
-    price: 49,
-    originalPrice: 60,
-    status: "Disponível",
-    image: ["/fotos/camisa-19.jpeg", "/fotos/camisa-19.2.jpeg"]
   },
   {
     id: "20",
