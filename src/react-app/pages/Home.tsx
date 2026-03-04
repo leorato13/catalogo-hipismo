@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { products, ProductCategory, ProductCondition, ProductStatus } from "@/react-app/data/products";
+import { products, Product, ProductCategory, ProductCondition, ProductStatus } from "@/react-app/data/products";
 import { ProductCard } from "@/react-app/components/ProductCard";
 import { Filters } from "@/react-app/components/Filters";
 import { HorseIcon } from "@/react-app/components/HorseIcon";
@@ -13,7 +13,20 @@ const WHATSAPP_NUMBER = "5511996135855";
 // Logo no header: coloque a imagem em public/ (ex: public/logo.png) e use "/logo.png". Deixe "" para manter o ícone do cavalo.
 const HEADER_LOGO = "/logo.png";
 
+/** Embaralha o array (Fisher-Yates). A ordem muda a cada visita da página. */
+function shuffleArray<T>(arr: T[]): T[] {
+  const result = [...arr];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 export default function HomePage() {
+  /** Produtos em ordem aleatória, definida uma vez ao carregar a página. */
+  const [shuffledProducts] = useState<Product[]>(() => shuffleArray(products));
+
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory | "all">("all");
   const [selectedSize, setSelectedSize] = useState<string | "all">("all");
@@ -40,7 +53,7 @@ export default function HomePage() {
   };
 
   const filteredProducts = useMemo(() => {
-    return products.filter((product) => {
+    return shuffledProducts.filter((product) => {
       const matchesSearch = 
         product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         product.observations.toLowerCase().includes(searchQuery.toLowerCase());
@@ -52,7 +65,7 @@ export default function HomePage() {
 
       return matchesSearch && matchesCategory && matchesSize && matchesCondition && matchesStatus && matchesPrice;
     });
-  }, [searchQuery, selectedCategory, selectedSize, selectedCondition, selectedStatus, priceRange]);
+  }, [shuffledProducts, searchQuery, selectedCategory, selectedSize, selectedCondition, selectedStatus, priceRange]);
 
   return (
     <div className="min-h-screen bg-background">
