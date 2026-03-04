@@ -297,18 +297,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-26.jpeg", "/fotos/camisa-26.2.jpeg"]
   },
   {
-    id: "28",
-    name: "Culote Branco com Lilás - Major Horse",
-    category: "Culote",
-    size: "12",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequena mancha de etiqueta (cola, deve sair).",
-    price: 90,
-    originalPrice: 100,
-    status: "Disponível",
-    image: ["/fotos/culote-brancoelilás.jpeg", "/fotos/culote-brancoelilás.2.jpeg", "/fotos/culote-brancoelilás.3.jpeg"]
-  },
-  {
     id: "29",
     name: "Regata de Viscolaycra Lilás - Major Horse",
     category: "Camisa de Treino",
