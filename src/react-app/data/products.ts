@@ -21,18 +21,6 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: "1",
-    name: "Culote Feminino - Ar Equestrian",
-    category: "Culote",
-    size: "G",
-    condition: "Usada",
-    observations: "Usado poucas vezes, em ótimo estado.",
-    price: 150,
-    originalPrice: 220,
-    status: "Disponível",
-    image: "/fotos/culote-ar-equestrian.jpeg"
-  },
-  {
     id: "2",
     name: "Camisa Azul Major Horse",
     category: "Camisa de Prova",
@@ -343,18 +331,6 @@ export const products: Product[] = [
     originalPrice: 100,
     status: "Disponível",
     image: ["/fotos/regata-branca.jpeg"]
-  },
-  {
-    id: "33",
-    name: "Camisa de Prova Preta - Major Horse",
-    category: "Camisa de Prova",
-    size: "PP",
-    condition: "Nova",
-    observations: "Nova, nunca usada mas com pequena mancha na gola.",
-    price: 79,
-    originalPrice: 90,
-    status: "Disponível",
-    image: ["/fotos/camisa-preta.jpeg", "/fotos/camisa-preta2.jpeg"]
   },
   {
     id: "34",
