@@ -45,18 +45,6 @@ export const products: Product[] = [
     image: "/fotos/camisa-tamanho14.jpeg"
   },
   {
-    id: "4",
-    name: "Camisa Verde - Major Horse",
-    category: "Camisa de Treino",
-    size: "P",
-    condition: "Usada",
-    observations: "Usada poucas vezes, em ótimo estado.",
-    price: 70,
-    originalPrice: 90,
-    status: "Disponível",
-    image: ["/fotos/camisa-verde-escuro.jpeg", "/fotos/camisa-verde-escuro2.jpeg"]
-  },
-  {
     id: "5",
     name: "Camisa Laranja - Major Horse",
     category: "Camisa de Treino",
@@ -91,18 +79,6 @@ export const products: Product[] = [
     originalPrice: 110,
     status: "Disponível",
     image: "/fotos/camisa-branca.jpeg"
-  },
-  {
-    id: "8",
-    name: "Culote - Major Horse",
-    category: "Culote",
-    size: "P",
-    condition: "Usada",
-    observations: "Usado mas em bom estado.",
-    price: 110,
-    originalPrice: 120,
-    status: "Disponível",
-    image: ["/fotos/culote-usadoantigo.jpeg", "/fotos/culote-usadoantigo2.jpeg"]
   },
   {
     id: "10",
