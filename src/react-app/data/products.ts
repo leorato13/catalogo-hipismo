@@ -366,7 +366,7 @@ export const products: Product[] = [
     price: 115,
     originalPrice: 135,
     status: "Disponível",
-    image: ["/fotos/culote-37.jpeg", "/fotos/culote-37.2.jpeg"]
+    image: ["/fotos/camisa-38.jpeg", "/fotos/camisa-38.2.jpeg"]
   },
   {
     id: "39",
@@ -378,7 +378,7 @@ export const products: Product[] = [
     price: 115,
     originalPrice: 135,
     status: "Disponível",
-    image: ["/fotos/culote-39.jpeg", "/fotos/culote-39.2.jpeg"]
+    image: ["/fotos/camisa-39.jpeg", "/fotos/camisa-39.2.jpeg"]
   },
   {
     id: "40",
