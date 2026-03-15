@@ -319,6 +319,78 @@ export const products: Product[] = [
     originalPrice: 50,
     status: "Disponível",
     image: ["/fotos/tshirt-treino-verde.jpeg"]
+  },
+  {
+    id: "35",
+    name: "Culote Branco e Preto - Major Horse",
+    category: "Culote",
+    size: "8",
+    condition: "Nova",
+    observations: "Novo, nunca usado e ainda na etiqueta.",
+    price: 170,
+    originalPrice: 190,
+    status: "Disponível",
+    image: ["/fotos/culote-35.jpeg", "/fotos/culote-35.2.jpeg"]
+  },
+  {
+    id: "36",
+    name: "Culote Cinza - Major Horse",
+    category: "Culote",
+    size: "M",
+    condition: "Nova",
+    observations: "Novo, nunca usado e ainda na etiqueta.",
+    price: 180,
+    originalPrice: 200,
+    status: "Disponível",
+    image: ["/fotos/culote-36.jpeg", "/fotos/culote-36.2.jpeg"]
+  },
+  {
+    id: "37",
+    name: "Culote Branco e Verde Militar - Major Horse",
+    category: "Culote",
+    size: "M",
+    condition: "Nova",
+    observations: "Novo, nunca usado e ainda na etiqueta.",
+    price: 190,
+    originalPrice: 210,
+    status: "Disponível",
+    image: ["/fotos/culote-37.jpeg", "/fotos/culote-37.2.jpeg"]
+  },
+  {
+    id: "38",
+    name: "Camisa de Prova com Renda Verde - Major Horse",
+    category: "Camisa de Prova",
+    size: "PP",
+    condition: "Nova",
+    observations: "Nova, nunca usada.",
+    price: 115,
+    originalPrice: 135,
+    status: "Disponível",
+    image: ["/fotos/culote-37.jpeg", "/fotos/culote-37.2.jpeg"]
+  },
+  {
+    id: "39",
+    name: "Camisa de Prova com Renda Azul - Major Horse",
+    category: "Camisa de Prova",
+    size: "P",
+    condition: "Nova",
+    observations: "Nova, nunca usada.",
+    price: 115,
+    originalPrice: 135,
+    status: "Disponível",
+    image: ["/fotos/culote-39.jpeg", "/fotos/culote-39.2.jpeg"]
+  },
+  {
+    id: "40",
+    name: "Camisa de Prova Lilás - Major Horse",
+    category: "Camisa de Prova",
+    size: "10",
+    condition: "Nova",
+    observations: "Nova, nunca usada.",
+    price: 95,
+    originalPrice: 115,
+    status: "Disponível",
+    image: ["/fotos/culote-40.jpeg"]
   }
 ];
 
