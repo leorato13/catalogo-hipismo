@@ -390,7 +390,7 @@ export const products: Product[] = [
     price: 95,
     originalPrice: 115,
     status: "Disponível",
-    image: ["/fotos/culote-40.jpeg"]
+    image: ["/fotos/camisa-40.jpeg"]
   }
 ];
 
