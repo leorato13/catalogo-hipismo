@@ -1,4 +1,4 @@
-export type ProductCondition = "Nova com pequeno defeito" | "Coleção antiga" | "Usada" | "Com defeito";
+export type ProductCondition = "Nova" | "Nova com pequeno defeito" | "Coleção antiga" | "Usada" | "Com defeito";
 export type ProductStatus = "Disponível" | "Reservado" | "Vendido";
 export type ProductCategory = "Culote" | "Camisa de Prova" | "Camisa de Treino" | "Colete" | "Jaqueta" | "Acessório";
 
@@ -307,7 +307,7 @@ export const products: Product[] = [
     originalPrice: 210,
     status: "Disponível",
     image: ["/fotos/culote-37.jpeg", "/fotos/culote-37.2.jpeg"]
-  },HardDriveDownload,,,
+  },
   {
     id: "38",
     name: "Camisa de Prova com Renda Verde - Major Horse",
