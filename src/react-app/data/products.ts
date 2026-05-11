@@ -105,18 +105,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-brancamancha.jpeg", "/fotos/camisa-brancamancha2.jpeg"]
   },
   {
-    id: "13",
-    name: "Camisa de Prova Verde Militar - Major Horse",
-    category: "Camisa de Prova",
-    size: "P",
-    condition: "Usada",
-    observations: "Usada poucas vezes, em bom estado.",
-    price: 90,
-    originalPrice: 110,
-    status: "Disponível",
-    image: ["/fotos/camisa-prova-verdemilitar.jpeg"]
-  },
-  {
     id: "14",
     name: "Camisa de Prova Verde Militar - Major Horse",
     category: "Camisa de Prova",
@@ -189,18 +177,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-20.jpeg", "/fotos/camisa-20.2.jpeg"]
   },
   {
-    id: "21",
-    name: "Camisa de Prova Azul - Major Horse",
-    category: "Camisa de Prova",
-    size: "P",
-    condition: "Nova",
-    observations: "Nova, nunca usada.",
-    price: 100,
-    originalPrice: 120,
-    status: "Disponível",
-    image: ["/fotos/camisa-21.jpeg"]
-  },
-  {
     id: "22",
     name: "Culote Bege - Major Horse",
     category: "Culote",
@@ -211,30 +187,6 @@ export const products: Product[] = [
     originalPrice: 95,
     status: "Disponível",
     image: ["/fotos/culote-22.jpeg", "/fotos/culote-22.2.jpeg"]
-  },
-  {
-    id: "23",
-    name: "Camisa de Prova Branca - Major Horse",
-    category: "Camisa de Prova",
-    size: "PP",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequena mancha na barra.",
-    price: 115,
-    originalPrice: 135,
-    status: "Disponível",
-    image: ["/fotos/camisa-23.jpeg", "/fotos/camisa-23.2.jpeg"]
-  },
-  {
-    id: "24",
-    name: "Camisa de Prova Off-White - Major Horse",
-    category: "Camisa de Prova",
-    size: "P",
-    condition: "Usada",
-    observations: "Usada poucas vezes, em bom estado.",
-    price: 70,
-    originalPrice: 90,
-    status: "Disponível",
-    image: ["/fotos/camisa-24.jpeg"]
   },
   {
     id: "25",
@@ -355,7 +307,7 @@ export const products: Product[] = [
     originalPrice: 210,
     status: "Disponível",
     image: ["/fotos/culote-37.jpeg", "/fotos/culote-37.2.jpeg"]
-  },
+  },HardDriveDownload,,,
   {
     id: "38",
     name: "Camisa de Prova com Renda Verde - Major Horse",
