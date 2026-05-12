@@ -69,18 +69,6 @@ export const products: Product[] = [
     image: "/fotos/camisa-vermelha.jpeg"
   },
   {
-    id: "7",
-    name: "Camisa Branca - Major Horse",
-    category: "Camisa de Prova",
-    size: "GG",
-    condition: "Nova",
-    observations: "Nunca usada, ainda na etiqueta.",
-    price: 90,
-    originalPrice: 110,
-    status: "Disponível",
-    image: "/fotos/camisa-branca.jpeg"
-  },
-  {
     id: "10",
     name: "Camisa - Major Horse",
     category: "Camisa de Treino",
@@ -117,18 +105,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-14.jpeg", "/fotos/camisa-14.1.jpeg", "/fotos/camisa-14.2.jpeg"]
   },
   {
-    id: "15",
-    name: "Camisa de Prova Azul Marinho - Major Horse",
-    category: "Camisa de Prova",
-    size: "GG",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequena mancha na gola.",
-    price: 65,
-    originalPrice: 80,
-    status: "Disponível",
-    image: ["/fotos/camisa-15.jpeg", "/fotos/camisa-15.2.jpeg"]
-  },
-  {
     id: "16",
     name: "Camisa de Prova Rose - Major Horse",
     category: "Camisa de Prova",
@@ -151,18 +127,6 @@ export const products: Product[] = [
     originalPrice: 100,
     status: "Disponível",
     image: ["/fotos/camisa-17.jpeg", "/fotos/camisa-17.2.jpeg"]
-  },
-  {
-    id: "18",
-    name: "Camisa de Prova Rose - Major Horse",
-    category: "Camisa de Prova",
-    size: "G",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequena mancha no ombro e cintura.",
-    price: 59,
-    originalPrice: 90,
-    status: "Disponível",
-    image: ["/fotos/camisa-18.jpeg", "/fotos/camisa-18.2.jpeg", "/fotos/camisa-18.3.jpeg"]
   },
   {
     id: "20",
@@ -283,30 +247,6 @@ export const products: Product[] = [
     originalPrice: 190,
     status: "Disponível",
     image: ["/fotos/culote-35.jpeg", "/fotos/culote-35.2.jpeg"]
-  },
-  {
-    id: "36",
-    name: "Culote Cinza - Major Horse",
-    category: "Culote",
-    size: "M",
-    condition: "Nova",
-    observations: "Novo, nunca usado e ainda na etiqueta.",
-    price: 180,
-    originalPrice: 200,
-    status: "Disponível",
-    image: ["/fotos/culote-36.jpeg", "/fotos/culote-36.2.jpeg"]
-  },
-  {
-    id: "37",
-    name: "Culote Branco e Verde Militar - Major Horse",
-    category: "Culote",
-    size: "M",
-    condition: "Nova",
-    observations: "Novo, nunca usado e ainda na etiqueta.",
-    price: 190,
-    originalPrice: 210,
-    status: "Disponível",
-    image: ["/fotos/culote-37.jpeg", "/fotos/culote-37.2.jpeg"]
   },
   {
     id: "38",
