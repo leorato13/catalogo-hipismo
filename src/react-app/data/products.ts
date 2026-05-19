@@ -81,18 +81,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-verdeclaro3.jpeg", "/fotos/camisa-verdeclaro.jpeg", "/fotos/camisa-verdeclaro2.jpeg"]
   },
   {
-    id: "12",
-    name: "Camisa de Prova - Major Horse",
-    category: "Camisa de Prova",
-    size: "PP",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, com pequena e leve mancha na barra.",
-    price: 120,
-    originalPrice: 140,
-    status: "Disponível",
-    image: ["/fotos/camisa-brancamancha.jpeg", "/fotos/camisa-brancamancha2.jpeg"]
-  },
-  {
     id: "14",
     name: "Camisa de Prova Verde Militar - Major Horse",
     category: "Camisa de Prova",
@@ -199,18 +187,6 @@ export const products: Product[] = [
     originalPrice: 80,
     status: "Disponível",
     image: ["/fotos/camisa-terracota.jpeg"]
-  },
-  {
-    id: "31",
-    name: "Culote Branco MASCULINO - Major Horse",
-    category: "Culote",
-    size: "GG",
-    condition: "Nova com pequeno defeito",
-    observations: "Novo ainda na etiqueta, mas com pequena mancha no cós.",
-    price: 79,
-    originalPrice: 90,
-    status: "Disponível",
-    image: ["/fotos/culote-brancomasc3.jpeg", "/fotos/culote-brancomasc2.jpeg", "/fotos/culote-brancomasc.jpeg"]
   },
   {
     id: "32",
