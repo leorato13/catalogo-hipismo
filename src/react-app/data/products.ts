@@ -69,18 +69,6 @@ export const products: Product[] = [
     image: "/fotos/camisa-vermelha.jpeg"
   },
   {
-    id: "10",
-    name: "Camisa - Major Horse",
-    category: "Camisa de Treino",
-    size: "P",
-    condition: "Usada",
-    observations: "Usada poucas vezes, em ótimo estado.",
-    price: 80,
-    originalPrice: 100,
-    status: "Disponível",
-    image: ["/fotos/camisa-verdeclaro3.jpeg", "/fotos/camisa-verdeclaro.jpeg", "/fotos/camisa-verdeclaro2.jpeg"]
-  },
-  {
     id: "14",
     name: "Camisa de Prova Verde Militar - Major Horse",
     category: "Camisa de Prova",
@@ -103,18 +91,6 @@ export const products: Product[] = [
     originalPrice: 60,
     status: "Disponível",
     image: ["/fotos/camisa-16.jpeg", "/fotos/camisa-16.2.jpeg", "/fotos/camisa-16.3.jpeg"]
-  },
-  {
-    id: "17",
-    name: "Camisa de Prova Rose - Major Horse",
-    category: "Camisa de Prova",
-    size: "P",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequena mancha no ombro.",
-    price: 70,
-    originalPrice: 100,
-    status: "Disponível",
-    image: ["/fotos/camisa-17.jpeg", "/fotos/camisa-17.2.jpeg"]
   },
   {
     id: "20",
@@ -175,18 +151,6 @@ export const products: Product[] = [
     originalPrice: 50,
     status: "Disponível",
     image: ["/fotos/regata-lilas.jpeg", "/fotos/regata-lilás.2.jpeg"]
-  },
-  {
-    id: "30",
-    name: "Camisa de Prova Terracota - Major Horse",
-    category: "Camisa de Prova",
-    size: "P",
-    condition: "Usada",
-    observations: "Usada, mas em bom estado.",
-    price: 65,
-    originalPrice: 80,
-    status: "Disponível",
-    image: ["/fotos/camisa-terracota.jpeg"]
   },
   {
     id: "32",
