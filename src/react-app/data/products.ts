@@ -69,18 +69,6 @@ export const products: Product[] = [
     image: "/fotos/camisa-vermelha.jpeg"
   },
   {
-    id: "14",
-    name: "Camisa de Prova Verde Militar - Major Horse",
-    category: "Camisa de Prova",
-    size: "PP",
-    condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequenas manchas na gola e no ombro.",
-    price: 70,
-    originalPrice: 90,
-    status: "Disponível",
-    image: ["/fotos/camisa-14.jpeg", "/fotos/camisa-14.1.jpeg", "/fotos/camisa-14.2.jpeg"]
-  },
-  {
     id: "16",
     name: "Camisa de Prova Rose - Major Horse",
     category: "Camisa de Prova",
@@ -174,7 +162,7 @@ export const products: Product[] = [
     price: 39,
     originalPrice: 50,
     status: "Disponível",
-    image: ["/fotos/tshirt-treino-verde.jpeg"]
+    image: ["/fotos/tshirt-treino-verde.jpeg", "/fotos/tshirt-treino-verdeatras.jpeg", "/fotos/tshirt-treino-verdenova.jpeg"]
   },
   {
     id: "35",
@@ -216,13 +204,109 @@ export const products: Product[] = [
     id: "40",
     name: "Camisa de Prova Lilás - Major Horse",
     category: "Camisa de Prova",
-    size: "10",
+    size: "12",
     condition: "Nova",
     observations: "Nova, nunca usada.",
     price: 95,
     originalPrice: 115,
     status: "Disponível",
     image: ["/fotos/camisa-40.jpeg"]
+  },
+  {
+    id: "41",
+    name: "Camisa de Prova Roxa - Major Horse",
+    category: "Camisa de Prova",
+    size: "P",
+    condition: "Nova com pequeno defeito",
+    observations: "Nova, nunca usada mas com pequeno rasgo na costura das costas.",
+    price: 90,
+    originalPrice: 120,
+    status: "Disponível",
+    image: ["/fotos/camisa-roxa-frente.jpeg", "/fotos/camisa-roxa-costas.jpeg", "/fotos/camisa-roxa-rasgo.jpeg"]
+  },
+  {
+    id: "42",
+    name: "Camisa de Prova Branca com Brilho e Manga Longa- Major Horse",
+    category: "Camisa de Prova",
+    size: "PP",
+    condition: "Nova com pequeno defeito",
+    observations: "Nova, nunca usada mas com algumas manchas de etiqueta (cola).",
+    price: 160,
+    originalPrice: 290,
+    status: "Disponível",
+    image: ["/fotos/camisa-42-frente.jpeg", "/fotos/camisa-42-mancha.jpeg","/fotos/camisa-42-costas.jpeg", "/fotos/camisa-42-manchas.jpeg"]
+  },
+  {
+    id: "43",
+    name: "Camisa de Prova Salmão- Major Horse",
+    category: "Camisa de Prova",
+    size: "PP",
+    condition: "Nova com pequeno defeito",
+    observations: "Nova, nunca usada mas com algumas mancha de caneta na cintura (Frente).",
+    price: 120,
+    originalPrice: 190,
+    status: "Disponível",
+    image: ["/fotos/camisa-43-frente.jpeg", "/fotos/camisa-43-mancha.jpeg","/fotos/camisa-43-costas.jpeg"]
+  },
+  {
+    id: "44",
+    name: "Camisa de Prova Branca e Salmão- Major Horse",
+    category: "Camisa de Prova",
+    size: "GG",
+    condition: "Nova com pequeno defeito",
+    observations: "Nova, nunca usada mas com algumas manchas de etiqueta (cola) na gola.",
+    price: 100,
+    originalPrice: 190,
+    status: "Disponível",
+    image: ["/fotos/camisa-44-frente.jpeg", "/fotos/camisa-44-mancha.jpeg","/fotos/camisa-44-costas.jpeg", "/fotos/camisa-44-manchas.jpeg","/fotos/camisa-44-manchass.jpeg"]
+  },
+  {
+    id: "45",
+    name: "Camisa de Prova Branca e Salmão- Major Horse",
+    category: "Camisa de Prova",
+    size: "G",
+    condition: "Nova",
+    observations: "Nova, nunca usada.",
+    price: 130,
+    originalPrice: 190,
+    status: "Disponível",
+    image: ["/fotos/camisa-45-frente.jpeg", "/fotos/camisa-45-costas.jpeg"]
+  },
+  {
+    id: "46",
+    name: "Camisa de Prova Branca com Brilho- Major Horse",
+    category: "Camisa de Prova",
+    size: "M",
+    condition: "Nova, com pequeno defeito",
+    observations: "Nova, nunca usada mas com manchas de etiqueta (cola) na cintura.",
+    price: 140,
+    originalPrice: 230,
+    status: "Disponível",
+    image: ["/fotos/camisa-46-frente.jpeg", "/fotos/camisa-46-costas.jpeg", "/fotos/camisa-46-mancha.jpeg", "/fotos/camisa-46-manchas.jpeg"]
+  },
+  {
+    id: "47",
+    name: "Culote Masculino- Major Horse",
+    category: "Culote",
+    size: "G",
+    condition: "Nova, com pequeno defeito",
+    observations: "Novo, nunca usado mas com manchas de etiqueta (cola) na barra e no bolso.",
+    price: 250,
+    originalPrice: 399,
+    status: "Disponível",
+    image: ["/fotos/culotemasc-frente.jpeg", "/fotos/culotemasc-costas.jpeg", "/fotos/culotemasc-frentee.jpeg", "/fotos/culotemasc-mancha.jpeg","/fotos/culotemasc-manchass.jpeg"]
+  },
+  {
+    id: "48",
+    name: "Culote Branco - Major Horse",
+    category: "Culote",
+    size: "PP",
+    condition: "Nova, com pequeno defeito",
+    observations: "Novo, nunca usado mas com pequenas manchas no joelho e na barra.",
+    price: 250,
+    originalPrice: 399,
+    status: "Disponível",
+    image: ["/fotos/culote-frente.jpeg", "/fotos/culote-costas.jpeg", "/fotos/culote-mancha.jpeg","/fotos/culote-manchass.jpeg"]
   }
 ];
 
