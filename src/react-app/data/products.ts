@@ -201,18 +201,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-39.jpeg", "/fotos/camisa-39.2.jpeg"]
   },
   {
-    id: "40",
-    name: "Camisa de Prova Lilás - Major Horse",
-    category: "Camisa de Prova",
-    size: "12",
-    condition: "Nova",
-    observations: "Nova, nunca usada.",
-    price: 95,
-    originalPrice: 115,
-    status: "Disponível",
-    image: ["/fotos/camisa-40.jpeg"]
-  },
-  {
     id: "41",
     name: "Camisa de Prova Roxa - Major Horse",
     category: "Camisa de Prova",
