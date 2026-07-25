@@ -33,18 +33,6 @@ export const products: Product[] = [
     image: ["/fotos/camisa-azul-majorhorse1.jpeg", "/fotos/camisa-azul-majorhorse2.jpeg"]
   },
   {
-    id: "3",
-    name: "Camisa Azul Major Horse com Brilho",
-    category: "Camisa de Prova",
-    size: "14",
-    condition: "Nova",
-    observations: "Nunca usada, ainda na etiqueta.",
-    price: 140,
-    originalPrice: 170,
-    status: "Disponível",
-    image: "/fotos/camisa-tamanho14.jpeg"
-  },
-  {
     id: "5",
     name: "Camisa Laranja - Major Horse",
     category: "Camisa de Treino",
