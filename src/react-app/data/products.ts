@@ -27,7 +27,7 @@ export const products: Product[] = [
     size: "12",
     condition: "Nova",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 99,
+    price: 90,
     originalPrice: 120,
     status: "Disponível",
     image: ["/fotos/camisa-azul-majorhorse1.jpeg", "/fotos/camisa-azul-majorhorse2.jpeg"]
@@ -39,22 +39,10 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova",
     observations: "Nunca usada, ainda na etiqueta.",
-    price: 65,
+    price: 59,
     originalPrice: 80,
     status: "Disponível",
     image: "/fotos/camisa-laranja.jpeg"
-  },
-  {
-    id: "6",
-    name: "Camisa Vermelha - Major Horse",
-    category: "Camisa de Prova",
-    size: "PP",
-    condition: "Nova",
-    observations: "Nunca usada, ainda na etiqueta.",
-    price: 59,
-    originalPrice: 70,
-    status: "Disponível",
-    image: "/fotos/camisa-vermelha.jpeg"
   },
   {
     id: "16",
@@ -62,8 +50,8 @@ export const products: Product[] = [
     category: "Camisa de Prova",
     size: "M",
     condition: "Nova com pequeno defeito",
-    observations: "Nunca usada, mas com pequenas manchas no ombro (cola, deve sair) e nas golas.",
-    price: 59,
+    observations: "Nunca usada, mas com pequenas manchas no ombro (cola, deve sair) e nas mangas.",
+    price: 55,
     originalPrice: 60,
     status: "Disponível",
     image: ["/fotos/camisa-16.jpeg", "/fotos/camisa-16.2.jpeg", "/fotos/camisa-16.3.jpeg"]
@@ -75,7 +63,7 @@ export const products: Product[] = [
     size: "8",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha na cintura.",
-    price: 75,
+    price: 69,
     originalPrice: 90,
     status: "Disponível",
     image: ["/fotos/camisa-20.jpeg", "/fotos/camisa-20.2.jpeg"]
@@ -87,7 +75,7 @@ export const products: Product[] = [
     size: "8",
     condition: "Nova",
     observations: "Novo, nunca usada e SEM GRIP.",
-    price: 85,
+    price: 79,
     originalPrice: 95,
     status: "Disponível",
     image: ["/fotos/culote-22.jpeg", "/fotos/culote-22.2.jpeg"]
@@ -99,19 +87,19 @@ export const products: Product[] = [
     size: "P",
     condition: "Usada",
     observations: "Usada poucas vezes, em bom estado.",
-    price: 70,
+    price: 69,
     originalPrice: 80,
     status: "Disponível",
     image: ["/fotos/camisa-25.jpeg"]
   },
   {
     id: "26",
-    name: "Camisa de Prova Branca - Major Horse",
+    name: "Camisa de Prova Branca - Ar Equestrian",
     category: "Camisa de Prova",
     size: "M",
     condition: "Nova com pequeno defeito",
     observations: "Nunca usada, mas com pequena mancha na gola/ombro.",
-    price: 110,
+    price: 105,
     originalPrice: 130,
     status: "Disponível",
     image: ["/fotos/camisa-26.jpeg", "/fotos/camisa-26.2.jpeg"]
@@ -123,7 +111,7 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova",
     observations: "Nunca usada.",
-    price: 45,
+    price: 40,
     originalPrice: 50,
     status: "Disponível",
     image: ["/fotos/regata-lilas.jpeg", "/fotos/regata-lilás.2.jpeg"]
@@ -135,7 +123,7 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova",
     observations: "Nova, nunca usada.",
-    price: 79,
+    price: 75,
     originalPrice: 100,
     status: "Disponível",
     image: ["/fotos/regata-branca.jpeg"]
@@ -147,8 +135,8 @@ export const products: Product[] = [
     size: "6",
     condition: "Nova",
     observations: "Nova, nunca usada.",
-    price: 39,
-    originalPrice: 50,
+    price: 40,
+    originalPrice: 60,
     status: "Disponível",
     image: ["/fotos/tshirt-treino-verde.jpeg", "/fotos/tshirt-treino-verdeatras.jpeg", "/fotos/tshirt-treino-verdenova.jpeg"]
   },
@@ -159,7 +147,7 @@ export const products: Product[] = [
     size: "8",
     condition: "Nova",
     observations: "Novo, nunca usado e ainda na etiqueta.",
-    price: 170,
+    price: 160,
     originalPrice: 190,
     status: "Disponível",
     image: ["/fotos/culote-35.jpeg", "/fotos/culote-35.2.jpeg"]
@@ -171,7 +159,7 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova",
     observations: "Nova, nunca usada.",
-    price: 115,
+    price: 109,
     originalPrice: 135,
     status: "Disponível",
     image: ["/fotos/camisa-38.jpeg", "/fotos/camisa-38.2.jpeg"]
@@ -183,7 +171,7 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova",
     observations: "Nova, nunca usada.",
-    price: 115,
+    price: 100,
     originalPrice: 135,
     status: "Disponível",
     image: ["/fotos/camisa-39.jpeg", "/fotos/camisa-39.2.jpeg"]
@@ -195,7 +183,7 @@ export const products: Product[] = [
     size: "P",
     condition: "Nova com pequeno defeito",
     observations: "Nova, nunca usada mas com pequeno rasgo na costura das costas.",
-    price: 90,
+    price: 85,
     originalPrice: 120,
     status: "Disponível",
     image: ["/fotos/camisa-roxa-frente.jpeg", "/fotos/camisa-roxa-costas.jpeg", "/fotos/camisa-roxa-rasgo.jpeg"]
@@ -207,7 +195,7 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova com pequeno defeito",
     observations: "Nova, nunca usada mas com algumas manchas de etiqueta (cola).",
-    price: 160,
+    price: 145,
     originalPrice: 290,
     status: "Disponível",
     image: ["/fotos/camisa-42-frente.jpeg", "/fotos/camisa-42-mancha.jpeg","/fotos/camisa-42-costas.jpeg", "/fotos/camisa-42-manchas.jpeg"]
@@ -219,7 +207,7 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova com pequeno defeito",
     observations: "Nova, nunca usada mas com algumas mancha de caneta na cintura (Frente).",
-    price: 120,
+    price: 110,
     originalPrice: 190,
     status: "Disponível",
     image: ["/fotos/camisa-43-frente.jpeg", "/fotos/camisa-43-mancha.jpeg","/fotos/camisa-43-costas.jpeg"]
@@ -231,7 +219,7 @@ export const products: Product[] = [
     size: "GG",
     condition: "Nova com pequeno defeito",
     observations: "Nova, nunca usada mas com algumas manchas de etiqueta (cola) na gola.",
-    price: 100,
+    price: 90,
     originalPrice: 190,
     status: "Disponível",
     image: ["/fotos/camisa-44-frente.jpeg", "/fotos/camisa-44-mancha.jpeg","/fotos/camisa-44-costas.jpeg", "/fotos/camisa-44-manchas.jpeg","/fotos/camisa-44-manchass.jpeg"]
@@ -243,22 +231,10 @@ export const products: Product[] = [
     size: "G",
     condition: "Nova",
     observations: "Nova, nunca usada.",
-    price: 130,
+    price: 120,
     originalPrice: 190,
     status: "Disponível",
     image: ["/fotos/camisa-45-frente.jpeg", "/fotos/camisa-45-costas.jpeg"]
-  },
-  {
-    id: "46",
-    name: "Camisa de Prova Branca com Brilho- Major Horse",
-    category: "Camisa de Prova",
-    size: "M",
-    condition: "Nova, com pequeno defeito",
-    observations: "Nova, nunca usada mas com manchas de etiqueta (cola) na cintura.",
-    price: 140,
-    originalPrice: 230,
-    status: "Disponível",
-    image: ["/fotos/camisa-46-frente.jpeg", "/fotos/camisa-46-costas.jpeg", "/fotos/camisa-46-mancha.jpeg", "/fotos/camisa-46-manchas.jpeg"]
   },
   {
     id: "47",
@@ -267,8 +243,8 @@ export const products: Product[] = [
     size: "G",
     condition: "Nova, com pequeno defeito",
     observations: "Novo, nunca usado mas com manchas de etiqueta (cola) na barra e no bolso.",
-    price: 250,
-    originalPrice: 399,
+    price: 210,
+    originalPrice: 350,
     status: "Disponível",
     image: ["/fotos/culotemasc-frente.jpeg", "/fotos/culotemasc-costas.jpeg", "/fotos/culotemasc-frentee.jpeg", "/fotos/culotemasc-mancha.jpeg","/fotos/culotemasc-manchass.jpeg"]
   },
@@ -279,7 +255,7 @@ export const products: Product[] = [
     size: "PP",
     condition: "Nova, com pequeno defeito",
     observations: "Novo, nunca usado mas com pequenas manchas no joelho e na barra.",
-    price: 250,
+    price: 210,
     originalPrice: 399,
     status: "Disponível",
     image: ["/fotos/culote-frente.jpeg", "/fotos/culote-costas.jpeg", "/fotos/culote-mancha.jpeg","/fotos/culote-manchass.jpeg"]
